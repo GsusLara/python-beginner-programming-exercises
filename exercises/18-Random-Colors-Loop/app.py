@@ -19,6 +19,12 @@ def get_allStudentColors():
     example_color = 1
     students_array = []
     #your loop here
+    for i in range(10):
+        selector=random.randint(0, 4)
+        col= get_color(selector)
+        students_array.append(col)
+
+    return (students_array)
 
 
 
